@@ -1,0 +1,163 @@
+:root {
+  --active-color: #00aeb0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background: linear-gradient(45deg, var(--active-color) 20%, transparent 100%) no-repeat;
+  
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.audio-player {
+  display: block;
+ 
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
+
+}
+.audio-player > h4 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+
+}
+.audio-detail .detail-img{
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+
+}
+
+.audio-detail .detail-img img {
+  width: 100%;
+  width: 250px;
+  height: 250px;
+  display: block;
+  border-radius: 120px; 
+  margin: 50px auto;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.3);
+
+  
+}
+.audio-detail .detail-title {
+  color: #EEE;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.audio-detail .detail-artist {
+  color: #AAA;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.audio-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.audio-control .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+  outline: none;
+  background-color: #FFCE00;
+  color: #FFF;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.audio-control .skip-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color:#fff;
+  font-size: 18px;
+}
+
+.audio-control .shuffle-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color:#fff;
+  font-size: 18px;
+  margin-left : 20px;
+}
+.audio-control .repeat-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color:#fff;
+  font-size: 18px;
+  margin-right : 20px;
+}
+
+.color-backdrop {
+  background: linear-gradient(45deg, var(--active-color) 20%, transparent 100%)
+    no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.color-backdrop.playing {
+  animation: colorChange 15s alternate infinite;
+}
+
+
+
+@keyframes colorChange {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
