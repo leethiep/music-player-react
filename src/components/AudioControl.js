@@ -18,6 +18,10 @@ function AudioControl(props) {
             <FontAwesomeIcon icon = {faForward}/>
 
         </button>
+
+        
+
+
         
         
         

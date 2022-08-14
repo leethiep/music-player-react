@@ -1,6 +1,6 @@
-import {useState,  useEffect, useRef } from 'react';
+import {useState,  useEffect } from 'react';
 import AudioPlayer from './components/AudioPlayer';
-import React, { Component } from 'react'
+import React from 'react'
 
 function App() {
   const [songs, setSongs] = useState([
@@ -14,7 +14,7 @@ function App() {
     },
     {
       title: "Into the night",
-      artist: "Prazkhanal", 
+      artist: "Prazkha", 
       audioSrc: "./music/into-the-night.mp3",
       imageSrc: "./image/into-the-night.jpg",
       color: "#F25EA3",
@@ -69,7 +69,7 @@ function App() {
       setCurrentSongIndex={setCurrentSongIndex}
       nextSongIndex={nextSongIndex}
       songs={songs}
-
+      
      />
     </div>
   );
