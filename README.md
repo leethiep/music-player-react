@@ -6,7 +6,7 @@
 # Reason to  start: 
     Make a technology application project of yourself studying to apply for a scholarship of Sun*.
 # Reason to choose : 
-    Simple functions, suitable for your ability
+    Simple functions, suitable for my ability
 # Detail :
     Completion time: 6 days (from August 5 to August 11)
     Member : Le Thi Thiep 
@@ -21,14 +21,14 @@
 
 # Build :
 # Clone project 
-$git clone https://github.com/leethiep/music-player-react-
+    $ git clone https://github.com/leethiep/music-player-react-
 # Install dependencies
-$ cd music-player-react-
-$ npm i
+    $ cd music-player-react-
+    $ npm i
 # Run
-$ npm start
+    $ npm start
 # Or build
-$ npm run build 
+    $ npm run build 
 
 # Link demo :
     https://leethiep-music-player-app.herokuapp.com/
