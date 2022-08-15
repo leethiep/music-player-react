@@ -15,7 +15,6 @@
 
 # Feature: 
     Playing song, pause, next song, previous song, rewind, when song ended automatically switch to the next song.
-    ![image](https://user-images.githubusercontent.com/99740462/184638042-1f16008c-2949-4c81-beec-b457fdfc2a0c.png)
 
 # Difficult:
     -I had just started to learn ReactJs about 1 month,this is the first time i'm using ReactJS, there are many places that are still confused, have not completed the original goal (with the function of playing once, playing randomly), taking a lot of time to research and perfect .
@@ -24,12 +23,12 @@
 # Clone project 
 $git clone https://github.com/leethiep/music-player-react-
 # Install dependencies
-$cd music-player-react-
-npm i
+$ cd music-player-react-
+$ npm i
 # Run
-npm start
+$ npm start
 # Or build
-npm run build 
+$ npm run build 
 
 # Link demo :
     https://leethiep-music-player-app.herokuapp.com/
