@@ -16,6 +16,9 @@
 # Feature: 
    The player can play a list of songs, pause, scrub and navigate to the next or previous song. And each song will have an animated background color.
    
+   Show next song and author
+   
+   When the song plays, the picture automatically rotates
  
 
 ![image](https://user-images.githubusercontent.com/99740462/184665899-5f1df76d-a4e5-4598-b831-c74e5034a860.png)
