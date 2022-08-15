@@ -1,3 +1,23 @@
+# Link demo :
+    https://leethiep-music-player-app.herokuapp.com/
+# Product name: 
+    Music player app
+# Function : 
+    Music player
+# Reason to  start: 
+    Make a technology application project of yourself studying to apply for a scholarship of Sun*.
+# Reason to choose : 
+    Simple functions, suitable for your ability
+# Completion time: 
+    9 days (from August 15 to August 14)
+# My role:   
+    Personal product, all made by myself
+# Functions: 
+    Open 1 song, pause, next song, previous song, rewind, when song ended automatically switch to the next song.
+# Technical highlights:
+    -Use html, css, javascript, reactjs
+    -Just started to learn ReactJs about 1 month, there are many places that are still confused, have not completed the original goal (with the function of playing once, playing randomly), taking a lot of time to research and perfect .
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
