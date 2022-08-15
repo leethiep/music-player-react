@@ -15,7 +15,12 @@
 
 # Feature: 
    The player can play a list of songs, pause, scrub and navigate to the next or previous song. And each song will have an animated background color.
-  
+   
+ 
+
+![image](https://user-images.githubusercontent.com/99740462/184665899-5f1df76d-a4e5-4598-b831-c74e5034a860.png)
+
+ 
 # Difficult:
     I had just started to learn ReactJs about 1 month,this is the first time i'm using ReactJS, there are many places that are still confused, have not completed the original goal (with the function of playing once, playing randomly), taking a lot of time to research and perfect .
     I had a hard time deploying to heroku, but luckily I deployed successfully
