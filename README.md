@@ -40,4 +40,4 @@
     $ npm run build 
 
 # Link demo :
-    https://leethiep-music-player-app.herokuapp.com/
+https://leethiep-music-player-app.herokuapp.com/
